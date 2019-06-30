@@ -15,10 +15,8 @@
 		 <maven.compiler.source>1.6</maven.compiler.source>
                   <maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
-
-  <dependencies>
-	  
-	  <plugins>
+	
+	<plugins>
     <plugin>    
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
@@ -27,6 +25,10 @@
         </configuration>
     </plugin>
 </plugins>
+
+  <dependencies>
+	  
+	  
 	  
     <dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
