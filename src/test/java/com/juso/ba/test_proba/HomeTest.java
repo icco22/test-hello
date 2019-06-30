@@ -7,7 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class HomeTest {
 
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void testUp() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\HP EliteBook 8560W\\Desktop\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
