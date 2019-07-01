@@ -133,6 +133,10 @@
             <version>3.6.1</version>
             <configuration>
 		    
+		 <suiteXmlFiles>
+                     <suiteXmlFile>testNG.xml</suiteXmlFile>
+                  </suiteXmlFiles>   
+		  
                 <fork>true</fork>
                 <executable>C:\Program Files\Java\jdk1.8.0_201\bin\javac.exe</executable>
            
@@ -141,11 +145,7 @@
             </configuration>
         </plugin>
     </plugins>
-	<configuration>
-                  <suiteXmlFiles>
-                     <suiteXmlFile>testNG.xml</suiteXmlFile>
-                  </suiteXmlFiles>
-        </configuration>
+	
 </build>
 </project>
 
