@@ -141,6 +141,9 @@
             </configuration>
         </plugin>
     </plugins>
+	<suiteXmlFiles>
+		<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+	</suiteXmlFiles>
 </build>
 </project>
 
