@@ -5,7 +5,7 @@
   <groupId>com.juso.ba</groupId>
   <artifactId>test-proba</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jre</packaging>
+  <packaging>jar</packaging>
 
   <name>test-proba</name>
   <url>http://maven.apache.org</url>
