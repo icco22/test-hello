@@ -141,9 +141,11 @@
             </configuration>
         </plugin>
     </plugins>
-	<suiteXmlFiles>
-		<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-	</suiteXmlFiles>
+	<configuration>
+                  <suiteXmlFiles>
+                     <suiteXmlFile>testNG.xml</suiteXmlFile>
+                  </suiteXmlFiles>
+        </configuration>
 </build>
 </project>
 
